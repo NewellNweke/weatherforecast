@@ -7,18 +7,18 @@ body{
     max-width: 600px;
     margin: 45px auto;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-    padding: 30px;
     border-radius: 16px;
+    padding: 30px;
 }
 header{
     border-bottom: 1px solid #f9f7fe;
     padding: 0 0 30px 0;
 }
 a {
-    background: purple;
+    color: purple;
 }
 .search-form-input{
-    background-color: #F8F7FC;
+    background-color: #f9f7fe;
     border:none;
     border-radius: 6px;
     width:80px;
@@ -36,6 +36,9 @@ a {
 }
 main{
     padding: 30px 0;
+}
+.weather-temperature-container{
+    display: flex;
 }
 
 .weather-city{
