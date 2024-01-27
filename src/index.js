@@ -13,7 +13,7 @@ function refreshWeather(response){
   timeElement.innerHTML = formatDate(date);
   descriptionElement.innerHTML= response.data.condition.description;
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
-  windSpeedElement.innerHTML = `{$response.data.wind.speed}km/h`;
+  windSpeedElement.innerHTML = `${response.data.wind.speed}km/h`;
   temperatureElement.innerHTML= Math.round(temperature);
 }
 function formatDate(date){
