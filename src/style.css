@@ -74,6 +74,9 @@ main{
     margin-top: 6px;
     font-size: 28px;
 }
+#forecast{
+    display: flex;
+}
 .weather-forecast{
     display: flex;
     justify-content: space-around;
