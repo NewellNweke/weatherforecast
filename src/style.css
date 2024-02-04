@@ -83,12 +83,15 @@ main{
 .weather-forecast-date{
     font-size: 16px;
     opacity: 0.5;
+    display: flex;
 }
 .weather-forecast-temperature{
     font-size: 13px;
+    display: flex;
 }
 .weather-forecast-temperature-min{
     opacity: 0.5;
+    display: flex;
 }
 footer{
     border-top: 1px solid #f9f7fe;
