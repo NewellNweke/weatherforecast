@@ -90,6 +90,9 @@ main{
 .weather-forecast-temperature-min{
     opacity: 0.5;
 }
+.col-2{
+    display: flex;
+}
 footer{
     border-top: 1px solid #f9f7fe;
     padding: 30px 0 0 0;
