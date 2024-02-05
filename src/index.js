@@ -62,24 +62,23 @@ function getForecast(city){
 function displayForecast(response) {
     console.log(response.data);
 
-    let days = ["Tues", "Wed", "Thurs", "Fri", "Sat"];
     let forecastHtml = "";
 
-    days.forEach(function (day) {
+    response.data.daily.forEach(function (day) {
         forecastHtml = 
           forecastHtml +
           `
 
        <div class="weather-forecast-day">
        <div class ="col-2">
-         <div class="weather-forecast-date">${day}</div>
+         <div class="weather-forecast-date">Tues</div>
          <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/shower-rain-night.png" alt="weather" width ="42"/>
          <div class="weather-forecast-temperature">
             <span class="weather-forecast-temperature-max">
-               <strong>18&deg;</strong>
+               <strong>${day.temperature.minimum}&deg;</strong>
             </span>
                 <span class= "weather-forecast-temperature-min">
-                   <strong>12&deg;</strong> 
+                   <strong>${day.temperature.minimum}&deg;</strong> 
                 </span>
          </div>
      </div>
