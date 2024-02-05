@@ -83,7 +83,7 @@ main{
     margin-top: 30px;
 }
 .weather-forecast-day{
-    display: block;
+    display: inline-block;
 }
 .weather-forecast-date{
     text-align:center;
