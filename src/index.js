@@ -59,7 +59,6 @@ searchCity("Paris");
 let forecast = document.querySelector("#forecast");
 
 forecast.innerHTML = `
-    <div class = "row">
     <div class="weather-forecast-day">
     <div class ="col-2">
         <div class="weather-forecast-date">
@@ -76,7 +75,6 @@ forecast.innerHTML = `
         </div>
     </div>
 </div>
-<div class = "row">
     <div class="weather-forecast-day">
     <div class ="col-2">
         <div class="weather-forecast-date">
@@ -93,7 +91,6 @@ forecast.innerHTML = `
         </div>
     </div>
 </div>
-<div class = "row">
     <div class="weather-forecast-day">
     <div class ="col-2">
         <div class="weather-forecast-date">
@@ -110,7 +107,6 @@ forecast.innerHTML = `
         </div>
     </div>
 </div>
-<div class = "row">
     <div class="weather-forecast-day">
     <div class ="col-2">
         <div class="weather-forecast-date">
@@ -127,7 +123,6 @@ forecast.innerHTML = `
         </div>
     </div>
 </div>
-<div class = "row">
     <div class="weather-forecast-day">
     <div class ="col-2">
         <div class="weather-forecast-date">
