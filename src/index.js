@@ -55,3 +55,25 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Paris");
+
+let forecast = document.querySelector("#forecast");
+
+forecast.innerHTML = `
+    <div class = "row">
+    <div class="weather-forecast-day">
+    <div class ="col-2">
+        <div class="weather-forecast-date">
+            Tues
+        </div>
+        <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/shower-rain-night.png" alt="weather" width ="42"/>
+        <div class="weather-forecast-temperature">
+            <span class="weather-forecast-temperature-max">
+               <strong>18&deg;</strong>
+            </span>
+                <span class= "weather-forecast-temperature-min">
+                   <strong>12&deg;</strong> 
+                </span>
+        </div>
+    </div>
+</div>
+`;
