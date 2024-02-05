@@ -76,10 +76,10 @@ function displayForecast() {
          </div>
      </div>
  </div>
-`;
+ `;
 });
 
-forecastElement.innerHTML=forecastHtml;
+forecastElement.innerHTML = forecastHtml;
 }
 
 let searchFormElement = document.querySelector("#search-form");
