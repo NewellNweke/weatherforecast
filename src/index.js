@@ -78,7 +78,7 @@ forecast.innerHTML = `
     <div class="weather-forecast-day">
     <div class ="col-2">
         <div class="weather-forecast-date">
-            Tues
+            Wed
         </div>
         <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/shower-rain-night.png" alt="weather" width ="42"/>
         <div class="weather-forecast-temperature">
@@ -94,7 +94,7 @@ forecast.innerHTML = `
     <div class="weather-forecast-day">
     <div class ="col-2">
         <div class="weather-forecast-date">
-            Tues
+            Thurs
         </div>
         <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/shower-rain-night.png" alt="weather" width ="42"/>
         <div class="weather-forecast-temperature">
@@ -110,7 +110,7 @@ forecast.innerHTML = `
     <div class="weather-forecast-day">
     <div class ="col-2">
         <div class="weather-forecast-date">
-            Tues
+            Fri
         </div>
         <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/shower-rain-night.png" alt="weather" width ="42"/>
         <div class="weather-forecast-temperature">
@@ -126,7 +126,7 @@ forecast.innerHTML = `
     <div class="weather-forecast-day">
     <div class ="col-2">
         <div class="weather-forecast-date">
-            Tues
+            Sat
         </div>
         <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/shower-rain-night.png" alt="weather" width ="42"/>
         <div class="weather-forecast-temperature">
