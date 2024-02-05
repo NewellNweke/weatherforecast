@@ -72,7 +72,7 @@ function displayForecast(response) {
        <div class="weather-forecast-day">
        <div class ="col-2">
          <div class="weather-forecast-date">Tues</div>
-         <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/shower-rain-night.png" alt="weather" width ="42"/>
+         <img src ="${day.condition.icon_url}">
          <div class="weather-forecast-temperature">
             <span class="weather-forecast-temperature-max">
                <strong>${Math.round(day.temperature.maximum)}&deg;</strong>
