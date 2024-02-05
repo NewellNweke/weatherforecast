@@ -52,7 +52,6 @@ function handleSearchSubmit(event){
        searchCity(searchInput.value);
 }
 function displayForecast() {
-    let forecastElement = document.querySelector("#forecast");
 
     let days = ["Tues", "Wed", "Thurs", "Fri", "Sat"];
     let forecastHtml = "";
@@ -79,6 +78,7 @@ function displayForecast() {
  `;
 });
 
+let forecastElement = document.querySelector("#forecast");
 forecastElement.innerHTML = forecastHtml;
 }
 
