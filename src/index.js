@@ -51,6 +51,7 @@ function searchCity(city){
 function handleSearchSubmit(event){
     event.preventDefault();
     let searchInput = document.querySelector("#search-form-input");
+
      searchCity(searchInput.value);
 }
 
@@ -63,7 +64,7 @@ function formatDay(timestamp){
            "Wed",
             "Thurs"
         ];
-        return days [day.getDay()];
+        return days[date.getDay()];
 }
 
 function getForecast(city){
