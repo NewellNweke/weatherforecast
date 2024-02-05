@@ -75,10 +75,10 @@ function displayForecast(response) {
          <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/shower-rain-night.png" alt="weather" width ="42"/>
          <div class="weather-forecast-temperature">
             <span class="weather-forecast-temperature-max">
-               <strong>${day.temperature.minimum}&deg;</strong>
+               <strong>${Math.round(day.temperature.maximum)}&deg;</strong>
             </span>
                 <span class= "weather-forecast-temperature-min">
-                   <strong>${day.temperature.minimum}&deg;</strong> 
+                   <strong>${Math.round(day.temperature.minimum)}&deg;</strong> 
                 </span>
          </div>
      </div>
