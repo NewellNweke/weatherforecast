@@ -54,7 +54,7 @@ function handleSearchSubmit(event){
      searchCity(searchInput.value);
 }
 
-funtion formatDay(timestamp){
+function formatDay(timestamp){
     let date = new Date(timestamp * 1000);
     let days[
         "Sun",
